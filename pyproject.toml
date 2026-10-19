@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "urdu-text-analyzer"
+version = "0.1.0"
+description = "A reproducible Urdu sentiment and topic analysis baseline."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = [
+  "scikit-learn>=1.4,<2",
+]
+
+[project.scripts]
+urdu-analyzer = "urdu_text_analyzer.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100

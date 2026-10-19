@@ -1,0 +1,5 @@
+[
+  {"text": "یہ فلم بہت اچھی ہے، مجھے پسند آئی۔", "expected_sentiment": "positive", "note": "Human-written demonstration expectation; not an evaluation example."},
+  {"text": "یہ سروس بہت خراب ہے اور مجھے بالکل پسند نہیں آئی۔", "expected_sentiment": "negative", "note": "Human-written demonstration expectation; not an evaluation example."},
+  {"text": "آج شہر میں بارش ہو رہی ہے۔", "expected_sentiment": "neutral", "note": "Human-written demonstration expectation; not an evaluation example."}
+]
